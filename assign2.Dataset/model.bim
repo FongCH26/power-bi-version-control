@@ -911,6 +911,17 @@
             "expression": "SUM(transform[product_id])",
             "formatString": "0",
             "lineageTag": "86dd660e-d05d-4722-8e32-3ea71019814b"
+          },
+          {
+            "name": "test_change_sales",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(transform[price])",
+            "lineageTag": "7b1a4058-5805-402a-81d3-a987dc6296ab"
           }
         ],
         "partitions": [
