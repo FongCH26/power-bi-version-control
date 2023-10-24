@@ -920,7 +920,7 @@
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
-            "expression": "SUM(transform[price])",
+            "expression": "SUM(transform[price]) * 36.15",
             "lineageTag": "7b1a4058-5805-402a-81d3-a987dc6296ab"
           }
         ],
