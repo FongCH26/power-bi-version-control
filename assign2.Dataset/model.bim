@@ -905,6 +905,12 @@
             "expression": "DISTINCTCOUNT(transform[product_name])",
             "formatString": "0",
             "lineageTag": "0b6a42f1-da8b-47b2-b1c2-873b444b8b04"
+          },
+          {
+            "name": "test-git",
+            "expression": "SUM(transform[product_id])",
+            "formatString": "0",
+            "lineageTag": "86dd660e-d05d-4722-8e32-3ea71019814b"
           }
         ],
         "partitions": [
